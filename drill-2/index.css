@@ -1,0 +1,79 @@
+header {
+    height: 200px;
+    box-sizing: border-box;
+    outline: 5px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header #purpleBox {
+    background-color: purple;
+    height: 120px;
+    width: 50px;
+    position: relative;
+    top: 65px;
+    left: 10px;
+}
+
+header #greenBox {
+    background-color: green;
+    height: 170px;
+    width: 400px;
+    position: relative;
+    bottom: 105px;
+    left: 100px;
+}
+
+header #cyanCircle {
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 265px;
+    left: 600px;
+}
+
+main {
+    height: 200px;
+    box-sizing: border-box;
+    outline: 5px dotted;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main div {
+    background-color: lightgoldenrodyellow;
+    width: 900px;
+    height: 150px;
+    position: relative;
+    left: 140px;
+    top: 25px;
+    box-shadow: 5px 5px 10px;
+}
+
+footer {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 350px;
+    box-shadow: 5px 5px 10px;
+    margin: 25px auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer h1 {
+    position: relative;
+    top: 45%;
+    color: navy;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
