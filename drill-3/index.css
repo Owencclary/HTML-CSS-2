@@ -1,0 +1,67 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: lightgray;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.blue-square {
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+}
+
+main {
+    height: 250px;
+    display: block;
+    padding: 20px;
+}
+
+.footer-one {
+    height: 200px;
+    display: block;
+    background-color: blue;
+}
+
+.footer-two {
+    height: 200px;
+    display: block;
+    background-color: turquoise;
+}
+
+.footer-three {
+    height: 200px;
+    display: block;
+    background-color: lightgreen;
+}
+
+.footer-four {
+    height: 200px;
+    display: block;
+    background-color: yellow;
+}
+
+.question-mark {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.question-mark button {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
